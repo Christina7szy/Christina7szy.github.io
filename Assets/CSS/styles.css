@@ -27,7 +27,7 @@ th{
 }
 
 #nav a.active {
-  background-color: lightpink;
+  background-color: transparent;
   color: white;
 }
 /* Page content */
@@ -67,15 +67,15 @@ th{
 
 }
 
-.subsubpage{
-   float: left;
-   width:50%;
+/*.subsubpage{
+    float: left;
+    width:50%;
     background-image: url('../Home-Assets/Image/BG/bg_1-01.png');
     background-repeat:no-repeat;
     background-position:center;
     position:inherit;
     background-size:contain;
-}
+} */
 
 .column {
   float: left;
@@ -99,7 +99,7 @@ th{
 }
 
 #page1{
-    background-image: url('Home-Assets/Image/BG/bg_1-01.png');
+    background-image: url('../Home-Assets/Image/BG/bg_1-01.png');
     background-repeat:no-repeat;
     background-position:center;
     position:relative;
