@@ -1,76 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-* {
-    box-sizing: border-box;
-}
-</style>
-  <title>New York Vintage Guide</title>
-  <link rel="stylesheet" href="Assets/CSS/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-<script>
-$('.smooth').on('click', function() {
-    $.smoothScroll({
-        scrollElement: $('body'),
-        scrollTarget: '#' + this.id
-    });
-    
-    return false;
-});
-</script>       
-  
+  <title>Christina Shi</title>
+  <link rel="stylesheet" href="CSS/styles_2.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="JS/jquery-ui-1.9.2/ui/jquery-ui.js"></script>    
 </head>
+
+
 <body>
-    
-<div id="nav">
-   <a class="active" href="#title">HOME</a>
-<!--<li><a href="#portfolio">Portfolio</a></li>
-    <li><a href="#contact">Contact</a></li> -->
+<div class="masterContainer">
+    <div id="vinyl1" class="vinyl"><a href="index2.html"></a></div>
+    <div id="vinyl2" class="vinyl"><a href="index_VS.html"></a></div>
+    <div id="vinyl3" class="vinyl"><a href="index_Freak.html"></a></div>
+    <div id="vinyl4" class="vinyl"><a href="index_Nevermind.html"></a></div>
+    <div id="shelf"  class="shelf"></div>
 </div>
     
-<div id="page1">
-  <a id="title" class="smooth"></a>
-     <header>
-         <!--<img src="Home-Assets/Image/BG/bg_1-01.png"> -->      
-           <h1>New York Vintage Guide</h1>
-     </header>
-</div>
-
-    
-<div class="row">
-    <div class="column">
-        <a href="Assets/EastVillage/EastVillageHome.html">
-          <img src="Assets/Home-Assets/Image/BG/EastVillage_1.png" style="width:100%">
-        </a>
-    </div>
-    <div class="column">
-        <img src="Assets/Home-Assets/Image/BG/EastVillage_1.png"style="width:100%">
-    </div>
-</div>
-        
-
-<div id="page3">
-    <a id="contact" class="smooth"></a>
-    Contact page content goes here.
-</div>
-    
-<script src="Assets/CSS/nav.js"></script>   
-    
- <!--   <div class="row">
-       <div class="column">
-           <a href="EastVillage/EastVillageHome.html">
-               <h2>East Village</h2> 
-           </a>
-       </div>
-       <div class="column">
-           <h2>Dumbo</h2> 
-       </div>
-        <div class="column">
-           <h2>Willamsburg</h2> 
-       </div>
-    </div>  -->
-    
-</body>
+<script src="JS/home.js"></script>    
