@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import url('reset.css');
 
+* {
+cursor: none;
+}
 body{
     background-color: white;
 }
@@ -10,8 +13,10 @@ th{
 
 .tail {
     position: absolute;
-    height: 6px; width: 6px;
-    border-radius: 3px;
+    z-index:3;
+    height: 30px; width: 30px;
+    border-radius: 30px;
+    opacity: 0;
     background: tomato;
   }
 
@@ -252,7 +257,7 @@ splay: table;
 
 .wholepage{
     height:3000px;
-    /*background: linear-gradient(rgb(221,39,143), rgb(42,156,180), black);*/
+    background: linear-gradient(rgb(221,39,143), rgb(42,156,180), black);
 }
 
 /*h1{

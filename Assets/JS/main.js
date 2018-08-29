@@ -1,9 +1,25 @@
+var dots = [],
+    mouse = {
+      x: 0,
+      y: 0
+    };
+
+var Dot = function() {
+  this.x = 0;
+  this.y = 0;
+  this.node = (function(){
+    var n = document.createElement("div");
+    n.className = "tail";
+    document.body.appendChild(n);
+    return n;
+  }());
+};
 Dot.prototype.draw = function() {
   this.node.style.left = this.x + "px";
   this.node.style.top = this.y + "px";
 };
 
-for (var i = 0; i < 12; i++) {
+for (var i = 0; i < 8; i++) {
   var d = new Dot();
   dots.push(d);
 }
@@ -35,3 +51,14 @@ function animate() {
 }
 
 animate();
+
+
+var x = document.getElementsByClassName("tail");
+var i;
+var j = 0.1;
+  for (i = 0; i < x.length; i++) {
+      console.log(x[i]);
+      j = j+0.05;
+      var num = j.toString();
+      x[i].style.opacity = num;
+  }
