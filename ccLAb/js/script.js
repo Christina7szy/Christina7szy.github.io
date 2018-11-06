@@ -1,0 +1,12 @@
+d3.select('#viz')
+  .append('svg')
+    .attr('width', 600)
+    .attr('height', 400)
+    .style('background', 'powderblue')
+  .append('rect')
+    .attr('x',200)
+    .attr('y',100)
+    .attr('height',200)
+    .attr('width',200)
+    .style('fill', '#CB4B19')
+

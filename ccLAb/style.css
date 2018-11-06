@@ -1,0 +1,68 @@
+#map{
+  width: 500px;
+  display: inline-block;
+  background-color: pink;
+}
+
+.flex-container {
+  display: flex;
+/*  background-color: powderblue;*/
+  justify-content: center;
+  height:500px;
+}
+
+.flex-container > div {
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
+}
+
+.map{
+    max-width:600px;
+    position:relative;
+}
+
+#description{
+      font-family:Interstate;
+      font-size:36px;
+     
+}
+#gradient{
+    position: relative;
+    bottom:20px;
+    display: inline-block;
+}
+
+span{
+    position: relative;
+    bottom:22px;
+    font-family:Interstate;  
+    font-size:11px;
+}
+
+ol{
+  font-family:Interstate;
+  font-size:20px;  
+  padding: 30px;
+}
+
+#listOfCity{
+    
+    position:relative;
+    bottom:300px;
+}
+
+#cityBlock{
+    
+    position: relative;
+    top: 350px;
+}
+
+p{
+    font-family:Interstate;
+}
+
+form{
+    position:absolute;
+    bottom:0px;
+}
