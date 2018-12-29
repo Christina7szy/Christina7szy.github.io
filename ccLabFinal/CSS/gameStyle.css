@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+#info {
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 48px;
+    color: whitesmoke;
+	display:block;
+}
+
+#instructions {
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 21px;
+    color: lightpink;
+	display:block;
+}
